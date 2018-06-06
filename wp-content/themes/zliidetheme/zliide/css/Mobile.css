@@ -1,0 +1,97 @@
+@media (max-width: 544px) {
+
+/*Helpers*/
+body{
+	/* Makes top image & slider works */
+	overflow-x: visible !important;
+
+}
+.set-height-120{
+		height: 100vh !important;
+}
+/* Header */
+.custom-logo{
+  padding: 50px 0 0 0;
+}
+.sales-text{
+	margin-bottom: 0!important;
+}
+.footer-padding{
+	padding: 20px 20px 0 20px !important;
+}
+.footer-menu{
+	padding: 20px 0 !important;
+}
+.copy-right{
+	padding: 20px !important;
+}
+.sales-text-product{
+	padding-top: 20px;
+	font-size: 3em;
+	font-weight: bolder;
+text-align: center;
+text-transform: uppercase;
+font-family: 'Exo', sans-serif;
+}
+/*Headings*/
+.entry-title {
+    padding: 0px 0px 0px 0px !important;
+    text-align: center !important;
+  }
+/*Values*/
+.entry-content{
+	text-align: center;
+color: #fff ;
+}
+.value-bg{
+	height:100vh !important;
+}
+.entry-content .sidebar p{
+		font-size: 16px ;
+}
+
+/*Nav*/
+.burger{
+		width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+		z-index: 101;
+}
+.main-navigation ul{
+	text-align: center;
+  margin-top: 30% !important;
+}
+.main-navigation li {
+    padding: 0 20%;
+    float: none !important;
+    position: relative;
+    font-size: 30px;
+}
+.main-navigation li a{
+	color: black !important;
+	font-family: 'Exo', sans-serif;
+}
+.main-navigation[class*="toggled"] ul{
+		transition: 0.7s ease-in;
+}
+.main-navigation[class*="toggled"]{
+	transition: 1s ease-in;
+	z-index: 100;
+	background-color: rgba(255,212,170,0.9);
+	right: 0 !important;
+	height: 100vh;
+	top:0 !important;
+}
+.main-navigation{
+	top: 0 !important;
+right: 0 !important;
+width: 100% !important;
+position: absolute !important;
+}
+.main-navigation button{
+	float: right !important;
+	background: transparent !important;
+	border: none !important;
+}
+}
