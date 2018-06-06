@@ -1,0 +1,31 @@
+
+.site-header{
+  height:100vh;
+}
+.entry-title {
+
+text-transform: uppercase;
+font-size: 2em;
+color: white !important;
+border: none !important;
+font-weight: bolder;
+position: relative;
+top: 60%;
+font-family: 'Exo', sans-serif;
+}
+
+.desktopmenu .menu-topmenu-container{
+  display: inline-block !important;
+  float:right;
+      padding: 30px;
+}
+.desktopmenu .menu-topmenu-container ul li{
+  display:inline-block !important;
+  padding: 20px;
+}
+.desktopmenu .menu-topmenu-container ul li a{
+color: #000 !important;
+ }
+.desktopmenu .menu-topmenu-container ul li a:hover{
+ color: #000 !important;
+  }
